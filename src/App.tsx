@@ -2,17 +2,7 @@ import React from "react";
 import { DualRing } from "react-spinners-css";
 import styled from "styled-components";
 import { AppContainer } from "./AppContainer";
-import qs from "query-string";
-
-type SearchQueryData = {
-  playerId: string;
-};
-const searchParsed = qs.parse(window.location.search) as SearchQueryData;
-
-// killswitch
-if (!searchParsed.playerId) {
-  document.body.innerHTML = "Please provide playerId in search query";
-}
+import {searchParsed} from "./searchParsed";
 
 type ScoreSaberPlayerBasic = {
   playerInfo: {

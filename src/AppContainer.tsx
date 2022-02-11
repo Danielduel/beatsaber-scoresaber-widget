@@ -17,7 +17,7 @@ const Container = styled.div`
   align-items: center;
   padding: 8px 0;
   box-sizing: border-box;
-  background: white;
+  background: var(--top-background);
   padding: 0 5px;
 `;
 
@@ -29,7 +29,7 @@ const ChildWrapper = styled.div`
   border-radius: 10px;
   height: 100%;
   margin: 5px 0;
-  background: white;
+  background: var(--top-background);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
