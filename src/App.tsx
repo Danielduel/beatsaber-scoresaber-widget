@@ -87,7 +87,7 @@ const App = () => {
     setInterval(() => {
       refetch();
     }, intervalSpan);
-  }, []);
+  }, [ refetch ]);
 
   React.useEffect(() => {
     if (isFetching) {
