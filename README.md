@@ -11,9 +11,9 @@ In case if you've linked this widget from github page and it stops working - rec
 
 (It will automatically refresh your ScoreSaber data each 5min)
 
-* Setup (which is ToDo, atm it will just complain that it is not configured): https://duelsik.github.io/beatsaber-scoresaber-widget/
-* Light mode panel: https://duelsik.github.io/beatsaber-scoresaber-widget/?playerId=76561198023909718 (my account is inactive, normally it will show ranks)
-* Dark mode panel: https://duelsik.github.io/beatsaber-scoresaber-widget/?playerId=76561198023909718&dark
+* Setup (which is ToDo, atm it will just complain that it is not configured): https://danielduel.github.io/beatsaber-scoresaber-widget/
+* Light mode panel: https://danielduel.github.io/beatsaber-scoresaber-widget/?playerId=76561198023909718 (my account is inactive, normally it will show ranks)
+* Dark mode panel: https://danielduel.github.io/beatsaber-scoresaber-widget/?playerId=76561198023909718&dark
 
 Just replace number after "playerId=" with your own, and you are good to go. If you want dark mode - just add "&dark" at the end of address.
 
@@ -32,5 +32,5 @@ Giving me credits is not expected, but small note in streams About section is al
 ## Issues?
 
 Use github issues tracker :)
-https://github.com/Duelsik/beatsaber-scoresaber-widget/issues
+https://github.com/Danielduel/beatsaber-scoresaber-widget/issues
 
